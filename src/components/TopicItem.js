@@ -4,7 +4,7 @@ import {TouchableOpacit, Text, TouchableOpacity} from "react-native";
 const TopicItem = (props) => {
     return (
         <TouchableOpacity>
-            <Text> {props.title}</Text>
+            <Text> {props.item.name}</Text>
         </TouchableOpacity>
 
     );
