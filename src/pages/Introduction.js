@@ -1,6 +1,6 @@
 import React from "react";
-import {SafeAreaView, View, Text} from "react-native";
-
+import {SafeAreaView, View, Text, ScrollView} from "react-native";
+import {TopicItem} from "../components";
 const topics = [
     {
       id: 0,
@@ -51,11 +51,17 @@ const topics = [
   ]
 const Introduction = props =>{
     return(
-        <SafeAreaView>
-            <View>
+        <SafeAreaView style={{flex: 1}}>
+            <View style={{flex: 1}}>
                 <Text>
                     INTRODUCTION
                 </Text>
+
+                <ScrollView>
+                    {topics.map((t)=> {
+                        return < TopicItem item={t} />;
+                    })}   
+                </ScrollView>
             </View>
         </SafeAreaView>
     )
