@@ -36,7 +36,7 @@ export const styleJobItem = StyleSheet.create({
         borderWidth:2,
         borderBottomColor: "black",
         borderStyle: "solid",
-        backgroundColor: "#686",
+        backgroundColor: "#6c6",
         borderRadius: 6,
 
     },
@@ -60,6 +60,77 @@ export const styleJobItem = StyleSheet.create({
         fontWeight: "bold",
         paddingTop: 5
     },
+
+    
+})
+
+export const styleModal = StyleSheet.create({
+    text: {
+        backgroundColor:"white",
+        borderRadius: 10,        
+        padding: 6,
+        borderColor: "green",
+        borderWidth:5,
+        borderStyle: "solid"
+
+    },
+    logo: {
+        width: 150,
+        height: 100,
+        alignSelf: "center",
+        margin:8
+
+    },
+    text1: {
+        color: "#835",
+        fontSize: 20,
+        fontWeight: "bold",
+        textAlign: "center",
+
+    },
+    text2: {
+        // color: "#835",
+        fontSize: 18,
+        padding:8,
+        borderColor: "pink",
+        borderBottomWidth:2,
+        borderStyle: "solid",
+        marginBottom:3
+        // fontWeight: "bold",
+
+    },
+    text3: {
+        color: "black",
+        fontSize: 13,
+        margin:8,
+        
+
+        
+        // padding:10
+        // fontWeight: "bold",
+
+    },
+    text4: {
+        backgroundColor:"pink",
+        color: "black",
+        fontSize: 20,
+        fontWeight: "bold",
+        fontSize: 20,
+        fontWeight: "bold",
+        padding: 10,
+        marginHorizontal: 10,
+        textAlign: "center"
+        
+        // padding:10
+        // fontWeight: "bold",
+
+    },
+    scrollView: {
+        backgroundColor: 'pink',
+        marginHorizontal: 10,
+        maxHeight:100
+      },
+  
 
     
 })
